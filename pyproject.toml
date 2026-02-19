@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ml-model-benchmarking"
+version = "0.1.0"
+description = "A Python library for benchmarking the performance of machine learning models across different frameworks."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+numpy = "^1.21"
+matplotlib = "^3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+unittest = "^3.0"
